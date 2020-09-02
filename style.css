@@ -1,0 +1,80 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Open Sans;
+  color: gray;
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-family: Open Sans;
+  color: black;
+  font-weight: lighter;
+  font-size: 25px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px rgb(130, 130, 130);
+}
+#banner h1 {
+  color: black;
+  font-size: 50px;
+}
+#banner p {
+  color: gray;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.card{
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.container {
+  width: 500px;   
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
